@@ -1,0 +1,21 @@
+NASA TN D-4688, Figure 6(d), printed page 57, PDF page 70.
+Configuration C. Quantity: axial-force coefficient. Mach series: 3.99-9.0.
+The plot gives each Mach curve its own vertically displaced zero line. Each CSV
+coefficient is normalized to that curve's local zero; Reynolds number (millions)
+and facility where printed are retained in the rows. Angle of attack is degrees.
+
+Extraction: PDF raster rendered at 2.5x, rotated upright, grid-suppressed ink
+trace guided by manually inspected inflection points, with points approximately
+every 5 degrees and extra samples at abrupt transitions. The accompanying
+overlay shows the selected trajectory against the original scan. Dashed and
+partly obscured line sections are interpolated through guide points; isolated
+symbols were not treated as separate curves. Near-vertical behavior in Figure
+4(c) is sampled additionally. Scan thickness, grid and overlapping symbols
+limit precision; displayed decimal places are serialization, not accuracy.
+
+File: ApolloCM_CA_Figure6d.csv (172 rows; SHA-256 b966285a860a919e6103e7b76a661a0124a0d24037243793c227037914f272ca)
+Overlay: ApolloCM_CA_Figure6d_overlay.png
+Reproduce: trace_ApolloCM_Figures4to6.py (requires pypdfium2, numpy, Pillow)
+Review: checked by Mark on 2026-09-28; the entire current CSV is covered, SHA-256 b966285a860a919e6103e7b76a661a0124a0d24037243793c227037914f272ca.
+
+Second-pass correction requested by Mark, 2026-09-28: M=3.99 and M=5.0 traces smoothed to remove grid/symbol-driven oscillations.

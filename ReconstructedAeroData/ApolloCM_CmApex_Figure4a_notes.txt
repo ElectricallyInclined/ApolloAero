@@ -1,0 +1,8 @@
+NASA TN D-4688, Figure 4(a), printed page 42, PDF page 55.
+Pitching-moment coefficient about the APEX, configuration C. Mach range 0.4-1.35; 231 sampled rows.
+Do not mix this coefficient with the c.g.-reference pitching moment in Figures 4-6(b).
+Digitization: PDF rendered at 2.5x; x-axis calibrated at alpha=0 and 200 degrees; each Mach series calibrated to its own zero ordinate. Hand-guided visible-curve anchors were linearly interpolated at 5-degree spacing; terminal anchors preserve visible endpoints. The colored source overlay shows every sampled point. Values are approximate scan readings, not original wind-tunnel tabulations.
+Figure 4(a) contains dashed/intermittent curve sections; these were guided by the visible line and symbols.
+Figure 6(a) caption names JPL-20 SWT and JPL-21 HWT but does not map individual Mach curves to facilities; its facility CSV field is intentionally blank.
+No extrapolation outside drawn curve endpoints. M=1.2 and M=1.35 were corrected over 90-140 degrees after Mark identified offsets in the first overlay. Checked by Mark on 2026-09-29; review applies to the current CSV hash in DATASETS.json. Not included in the stitched c.g. aerodynamic model.
+Reproduce with trace_ApolloCM_CmApex_Figures4to6.py beside 19680021973.pdf.
