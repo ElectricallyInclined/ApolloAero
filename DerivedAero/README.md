@@ -1,0 +1,29 @@
+# Apollo CM aerodynamic model, NASA TN D-4688
+
+[ApolloCM_aeromodel_Figures4to6.csv](ApolloCM_aeromodel_Figures4to6.csv) combines the nine reviewed Figure 4-6 b/c/d source CSVs for configuration C: pitching-moment coefficient about the c.g., normal-force coefficient, and axial-force coefficient. The source report and all nine input CSVs are in the [NASA TN D-4688 source folder](../sources/NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics/README.md).
+
+The table has 670 rows at 15 measured Mach stations from 0.4 through 9.0. Angle coverage is the *common supported interval* of all three curves at each Mach station; see the exact per-Mach ranges in [provenance](ApolloCM_aeromodel_Figures4to6_provenance.json). It reaches -25° for some Figure 5 stations and 200° for the highest Figure 6 stations. Every row contains all three coefficients.
+
+Each Mach curve keeps exact digitized source values where that angle was sampled. At angles sampled by another panel, a missing coefficient is linearly interpolated only between adjacent points of the *same Mach curve*. The three `*_basis` columns distinguish `source_point` from `linear_angle_interpolation`. There is no interpolation across Mach stations and no extrapolation beyond any input curve. Figure 4(b), M=0.4 retains separate 70.0° and 70.1° rows around its sharp plotted drop; the 0.1° separation is a digitization convention, not a measured transition width.
+
+Reynolds number (millions) and test facility are copied from source legends where available. Coefficients are dimensionless; angle of attack is in degrees. The source is a scanned plot, so the CSV's decimal places do not imply that level of physical accuracy.
+
+All nine **input CSVs** are checked by Mark with exact file hashes in [DATASETS.json](../DATASETS.json). This **derived combined CSV has not been separately reviewed by Mark**. Its provenance file records the nine input hashes, transformation, output hash, and per-Mach angle domains. Rebuild with [the standard-library script](build_apollo_cm_aeromodel.py); it rejects modified or unreviewed inputs.
+
+## Apex yaw moment inferred by rotational symmetry
+
+[The symmetry-derived yaw table](ApolloCM_yaw_apex_symmetry_Figures4a5a6a.csv) uses the three checked apex pitching-moment CSVs from NASA TN D-4688 Figures 4(a), 5(a), and 6(a). It has 555 rows: 15 measured Mach stations and sideslip angles from -90° through +90° at 5° spacing. The source report's basic configuration C is treated as rotationally symmetric about its X axis.
+
+For a pure sideslip at **alpha = 0°**, the Figure 1 body-axis sign convention gives `Cn_apex(M, beta) = -sign(beta) * Cm_apex(M, abs(beta))` for nonzero beta. At beta = 0°, yaw moment is set to zero by symmetry; the small nonzero source `Cm_apex(0°)` values are scan/digitization offsets. Every nonzero-beta row uses an exact source sample at `alpha = abs(beta)`; there is no angle or Mach interpolation. The source coefficient and angle are included in the table for inspection.
+
+**This is an inferred model, not measured yaw data.** It is specific to unstraked configuration C, the theoretical apex moment reference, pure sideslip, and the report's axis convention. It does not supply yaw moment about the c.g. or describe a nonzero-alpha flight state. Do not mix it into the existing c.g.-based stitched aerodynamic model without a separate 3D moment/reference transformation. The [provenance record](ApolloCM_yaw_apex_symmetry_Figures4a5a6a_provenance.json) names and hashes the three input CSVs and records the formula and limits. Rebuild with [the yaw builder](build_apollo_cm_symmetry_yaw.py). The three source CSVs are checked by Mark; this derived table has **not** been separately reviewed by Mark.
+
+## C.g. yaw moment inferred from apex moment and normal force
+
+[The c.g. yaw-moment table](ApolloCM_yaw_cg_symmetry_Figures4to6.csv) combines the three reviewed apex pitching-moment traces (Figures 4-6(a)) with the three reviewed normal-force traces (Figures 4-6(c)) for unstraked configuration C. It has 555 rows at 15 measured Mach stations, for pure sideslip `alpha = 0°` and `beta = -90°..+90°` in 5° steps. It is **derived by symmetry**, not a measured yaw dataset.
+
+With the report's body axes and nominal c.g. at `x/d = -0.685`, `y/d = 0`, the yaw reference translation is `Cn_cg = Cn_apex + 0.685*CY`. Let `a = abs(beta)` and `s = sign(beta)`. After recentering each source Mach curve at zero incidence, `Cm* = Cm_apex(a) - Cm_apex(0)` and `CN* = CN(a) - CN(0)`. Rotational symmetry gives `Cn_apex = -s*Cm*` and `CY = -s*CN*`, hence `Cn_cg = -s*(Cm* + 0.685*CN*)`. At `beta = 0`, all inferred lateral coefficients are zero. The `z/d = 0.059` c.g. offset affects pitch but does not enter this yaw translation when `y/d = 0`.
+
+The output keeps the recentered apex-yaw and side-force contributions, raw source values and zero offsets, and the normal-force sampling basis. Figure 4(c) M=0.7 has an irregular alpha grid; 28 output rows (the positive and negative beta pairs) use linear angle interpolation between adjacent samples. All other rows use exact normal-force samples. There is no Mach interpolation or angular extrapolation. [Provenance](ApolloCM_yaw_cg_symmetry_Figures4to6_provenance.json) records input hashes, domains, derivation, and limits; rebuild with [the c.g. yaw script](build_apollo_cm_yaw_cg_symmetry.py).
+
+This one-dimensional model is limited to pure sideslip at zero angle of attack and the assumed rotational symmetry of basic configuration C. It does not model yaw at nonzero-alpha trim or asymmetric attachments. The six input CSVs are checked by Mark; **this derived c.g. yaw table has not been separately reviewed**. It is separate from the existing stitched c.g. pitch/normal/axial aeromodel and from the earlier apex-yaw table, which did not recenter nonzero-beta source values.

@@ -1,0 +1,176 @@
+{
+  "name": "Apollo CM configuration-C pure-sideslip yaw-moment coefficient about c.g., symmetry-derived",
+  "csv": "ApolloCM_yaw_cg_symmetry_Figures4to6.csv",
+  "csv_sha256": "dde275d0e661049af584f07aa5692585d1b23288fc5c5e32ea94a8946abd90cd",
+  "row_count": 555,
+  "mach_station_count": 15,
+  "source_report": "NASA TN D-4688",
+  "source_pdf": "sources/NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics/19680021973.pdf",
+  "configuration": "C",
+  "reference": "nominal c.g., x/d=-0.685, y/d=0, z/d=0.059 from theoretical apex",
+  "flight_condition": "pure sideslip, alpha=0 degrees",
+  "beta_domain_deg": [
+    -90,
+    90
+  ],
+  "beta_spacing_deg": 5,
+  "method": "For each measured Mach and beta, set a=abs(beta), s=sign(beta). Recenter scanned source curves Cm*=Cm_apex(a)-Cm_apex(0) and CN*=CN(a)-CN(0). Rotational symmetry gives Cn_apex=-s*Cm* and CY=-s*CN*. Shift moment to c.g. using Cn_cg=Cn_apex+0.685*CY. Therefore Cn_cg=-s*(Cm*+0.685*CN*). At beta=0 all inferred lateral quantities are exactly zero. No Mach interpolation or extrapolation. CN is linearly interpolated in alpha within adjacent source points only where its grid does not contain a 5-degree output angle.",
+  "normal_force_basis_counts": {
+    "source_point": 527,
+    "linear_angle_interpolation": 28
+  },
+  "limitations": "Derived engineering approximation, not measured yaw data. Rotational symmetry assumed for unstraked basic configuration C; valid for pure sideslip at alpha=0 only. Body-axis yaw sign follows Figure 1 of NASA TN D-4688. Source curve zero offsets are removed as a modeling choice. Not valid for nonzero-alpha trim, asymmetric hardware, or without checking simulator axis signs. The c.g. has no specified lateral y offset; a nonzero y offset would add an axial-force moment term.",
+  "review_status": "not_checked",
+  "review_note": "All six source CSVs are checked by Mark; this new derived c.g. yaw table has not been separately reviewed by Mark.",
+  "domains": [
+    {
+      "figure": 4,
+      "mach": "0.4",
+      "beta_min_deg": -90,
+      "beta_max_deg": 90,
+      "rows": 37
+    },
+    {
+      "figure": 4,
+      "mach": "0.7",
+      "beta_min_deg": -90,
+      "beta_max_deg": 90,
+      "rows": 37
+    },
+    {
+      "figure": 4,
+      "mach": "0.9",
+      "beta_min_deg": -90,
+      "beta_max_deg": 90,
+      "rows": 37
+    },
+    {
+      "figure": 4,
+      "mach": "1.1",
+      "beta_min_deg": -90,
+      "beta_max_deg": 90,
+      "rows": 37
+    },
+    {
+      "figure": 4,
+      "mach": "1.2",
+      "beta_min_deg": -90,
+      "beta_max_deg": 90,
+      "rows": 37
+    },
+    {
+      "figure": 4,
+      "mach": "1.35",
+      "beta_min_deg": -90,
+      "beta_max_deg": 90,
+      "rows": 37
+    },
+    {
+      "figure": 5,
+      "mach": "1.575",
+      "beta_min_deg": -90,
+      "beta_max_deg": 90,
+      "rows": 37
+    },
+    {
+      "figure": 5,
+      "mach": "1.65",
+      "beta_min_deg": -90,
+      "beta_max_deg": 90,
+      "rows": 37
+    },
+    {
+      "figure": 5,
+      "mach": "2.41",
+      "beta_min_deg": -90,
+      "beta_max_deg": 90,
+      "rows": 37
+    },
+    {
+      "figure": 5,
+      "mach": "2.49",
+      "beta_min_deg": -90,
+      "beta_max_deg": 90,
+      "rows": 37
+    },
+    {
+      "figure": 5,
+      "mach": "3.27",
+      "beta_min_deg": -90,
+      "beta_max_deg": 90,
+      "rows": 37
+    },
+    {
+      "figure": 6,
+      "mach": "3.99",
+      "beta_min_deg": -90,
+      "beta_max_deg": 90,
+      "rows": 37
+    },
+    {
+      "figure": 6,
+      "mach": "5",
+      "beta_min_deg": -90,
+      "beta_max_deg": 90,
+      "rows": 37
+    },
+    {
+      "figure": 6,
+      "mach": "7.3",
+      "beta_min_deg": -90,
+      "beta_max_deg": 90,
+      "rows": 37
+    },
+    {
+      "figure": 6,
+      "mach": "9",
+      "beta_min_deg": -90,
+      "beta_max_deg": 90,
+      "rows": 37
+    }
+  ],
+  "inputs": [
+    {
+      "dataset_id": "apollo-cm-cmapex-figure4a-csv",
+      "path": "sources/NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics/ApolloCM_CmApex_Figure4a.csv",
+      "sha256": "734cb6d9828e5be4888144a6bb447cbd61fe90183e2042a59bcf75cac145bef0",
+      "mark_review_status": "checked_by_mark",
+      "mark_review_date": "2026-09-29"
+    },
+    {
+      "dataset_id": "apollo-cm-cn-figure4c-csv",
+      "path": "sources/NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics/ApolloCM_CN_Figure4c.csv",
+      "sha256": "69a12691d63876fa7cfb2570b96e207c4f2869a3c611f1d59df5e91fd0b1e032",
+      "mark_review_status": "checked_by_mark",
+      "mark_review_date": "2026-09-28"
+    },
+    {
+      "dataset_id": "apollo-cm-cmapex-figure5a-csv",
+      "path": "sources/NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics/ApolloCM_CmApex_Figure5a.csv",
+      "sha256": "3e10d7e215d90c9a12479aa1c403086f3dcb840f205fc92b3055247adf1c0bca",
+      "mark_review_status": "checked_by_mark",
+      "mark_review_date": "2026-09-29"
+    },
+    {
+      "dataset_id": "apollo-cm-cn-figure5c-csv",
+      "path": "sources/NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics/ApolloCM_CN_Figure5c.csv",
+      "sha256": "4712dcc71ce16cb16072db646273e4684d4c6f7c82fd00504b3816176c276405",
+      "mark_review_status": "checked_by_mark",
+      "mark_review_date": "2026-09-28"
+    },
+    {
+      "dataset_id": "apollo-cm-cmapex-figure6a-csv",
+      "path": "sources/NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics/ApolloCM_CmApex_Figure6a.csv",
+      "sha256": "70e7fcb0f71d834123f82d6c229d35f6f564353bdcac78d1651c56bcb192047c",
+      "mark_review_status": "checked_by_mark",
+      "mark_review_date": "2026-09-29"
+    },
+    {
+      "dataset_id": "apollo-cm-cn-figure6c-csv",
+      "path": "sources/NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics/ApolloCM_CN_Figure6c.csv",
+      "sha256": "e47ba9af7c9e2464891f845c5e3bb22e6ed64b5312e0aa93b87856e2c857e5ce",
+      "mark_review_status": "checked_by_mark",
+      "mark_review_date": "2026-09-28"
+    }
+  ]
+}

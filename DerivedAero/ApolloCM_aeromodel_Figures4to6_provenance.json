@@ -1,0 +1,196 @@
+{
+  "name": "Apollo command module aerodynamic coefficient lookup, NASA TN D-4688 Figures 4-6",
+  "csv": "ApolloCM_aeromodel_Figures4to6.csv",
+  "csv_sha256": "b4ee4dda677e7051879634cc70988c6dfd067460b8e924468da7948ca9684ec5",
+  "row_count": 670,
+  "mach_station_count": 15,
+  "source_report": "NASA TN D-4688",
+  "configuration": "C",
+  "reference": "pitching moment about c.g.; each source Mach curve calibrated to its printed local zero line",
+  "angle_unit": "degrees",
+  "coefficients": [
+    "pitching_moment_coefficient_cg",
+    "normal_force_coefficient",
+    "axial_force_coefficient"
+  ],
+  "method": "At each measured Mach station, union the three source angle grids within their shared support. Preserve original coefficient values at their source angles; linearly interpolate only in angle within the same Mach curve for missing values. Never interpolate across Mach or extrapolate beyond any source curve.",
+  "discontinuity": "Figure 4(b) M=0.4 contains separate 70.0 and 70.1 degree points around a sharp plotted drop. Both are retained; interpolation between them is a plotting convention, not a measured transition width.",
+  "review_status": "not_checked",
+  "review_note": "All nine input CSVs are checked by Mark. This combined, interpolated output is a new derived dataset and has not been separately reviewed by Mark.",
+  "source_value_counts": {
+    "source_point": 1843,
+    "linear_angle_interpolation": 167
+  },
+  "domains": [
+    {
+      "figure": 4,
+      "mach": "0.4",
+      "alpha_min_deg": "0",
+      "alpha_max_deg": "180",
+      "rows": 54
+    },
+    {
+      "figure": 4,
+      "mach": "0.7",
+      "alpha_min_deg": "0",
+      "alpha_max_deg": "180",
+      "rows": 85
+    },
+    {
+      "figure": 4,
+      "mach": "0.9",
+      "alpha_min_deg": "0",
+      "alpha_max_deg": "180",
+      "rows": 45
+    },
+    {
+      "figure": 4,
+      "mach": "1.1",
+      "alpha_min_deg": "0",
+      "alpha_max_deg": "180",
+      "rows": 37
+    },
+    {
+      "figure": 4,
+      "mach": "1.2",
+      "alpha_min_deg": "0",
+      "alpha_max_deg": "180",
+      "rows": 37
+    },
+    {
+      "figure": 4,
+      "mach": "1.35",
+      "alpha_min_deg": "0",
+      "alpha_max_deg": "180",
+      "rows": 37
+    },
+    {
+      "figure": 5,
+      "mach": "1.575",
+      "alpha_min_deg": "-10",
+      "alpha_max_deg": "185",
+      "rows": 40
+    },
+    {
+      "figure": 5,
+      "mach": "1.65",
+      "alpha_min_deg": "-25",
+      "alpha_max_deg": "185",
+      "rows": 43
+    },
+    {
+      "figure": 5,
+      "mach": "2.41",
+      "alpha_min_deg": "-25",
+      "alpha_max_deg": "185",
+      "rows": 43
+    },
+    {
+      "figure": 5,
+      "mach": "2.49",
+      "alpha_min_deg": "-10",
+      "alpha_max_deg": "185",
+      "rows": 40
+    },
+    {
+      "figure": 5,
+      "mach": "3.27",
+      "alpha_min_deg": "-10",
+      "alpha_max_deg": "185",
+      "rows": 40
+    },
+    {
+      "figure": 6,
+      "mach": "3.99",
+      "alpha_min_deg": "-5",
+      "alpha_max_deg": "185",
+      "rows": 39
+    },
+    {
+      "figure": 6,
+      "mach": "5",
+      "alpha_min_deg": "-5",
+      "alpha_max_deg": "190",
+      "rows": 40
+    },
+    {
+      "figure": 6,
+      "mach": "7.3",
+      "alpha_min_deg": "-20",
+      "alpha_max_deg": "200",
+      "rows": 45
+    },
+    {
+      "figure": 6,
+      "mach": "9",
+      "alpha_min_deg": "-20",
+      "alpha_max_deg": "200",
+      "rows": 45
+    }
+  ],
+  "inputs": [
+    {
+      "dataset_id": "apollo-cm-cmcg-figure4b-csv",
+      "path": "sources/NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics/ApolloCM_CmCG_Figure4b.csv",
+      "sha256": "507ba8405562a936ba341330cae72f3e7954e70c7a3e75b3451171d0d2669352",
+      "mark_review_status": "checked_by_mark",
+      "mark_review_date": "2026-09-28"
+    },
+    {
+      "dataset_id": "apollo-cm-cn-figure4c-csv",
+      "path": "sources/NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics/ApolloCM_CN_Figure4c.csv",
+      "sha256": "69a12691d63876fa7cfb2570b96e207c4f2869a3c611f1d59df5e91fd0b1e032",
+      "mark_review_status": "checked_by_mark",
+      "mark_review_date": "2026-09-28"
+    },
+    {
+      "dataset_id": "apollo-cm-ca-figure4d-csv",
+      "path": "sources/NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics/ApolloCM_CA_Figure4d.csv",
+      "sha256": "a973cb068002525e6657f2d49744fef6cdb8c5f77da3c0342b13873fee08cee0",
+      "mark_review_status": "checked_by_mark",
+      "mark_review_date": "2026-09-28"
+    },
+    {
+      "dataset_id": "apollo-cm-cmcg-figure5b-csv",
+      "path": "sources/NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics/ApolloCM_CmCG_Figure5b.csv",
+      "sha256": "dd21b1589a0152a355e93fdcf047204a906a368474cfaa2ba24e4dd1b22daf20",
+      "mark_review_status": "checked_by_mark",
+      "mark_review_date": "2026-09-28"
+    },
+    {
+      "dataset_id": "apollo-cm-cn-figure5c-csv",
+      "path": "sources/NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics/ApolloCM_CN_Figure5c.csv",
+      "sha256": "4712dcc71ce16cb16072db646273e4684d4c6f7c82fd00504b3816176c276405",
+      "mark_review_status": "checked_by_mark",
+      "mark_review_date": "2026-09-28"
+    },
+    {
+      "dataset_id": "apollo-cm-ca-figure5d-csv",
+      "path": "sources/NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics/ApolloCM_CA_Figure5d.csv",
+      "sha256": "346af30c08f867fdfd28b182999044b9285da92dfbcac3409ef0ee9401edb99a",
+      "mark_review_status": "checked_by_mark",
+      "mark_review_date": "2026-09-28"
+    },
+    {
+      "dataset_id": "apollo-cm-cmcg-figure6b-csv",
+      "path": "sources/NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics/ApolloCM_CmCG_Figure6b.csv",
+      "sha256": "458598413a55e8cdcb764d52e866e23dc9178d16760b73c7b6253cf285d2a2d7",
+      "mark_review_status": "checked_by_mark",
+      "mark_review_date": "2026-09-28"
+    },
+    {
+      "dataset_id": "apollo-cm-cn-figure6c-csv",
+      "path": "sources/NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics/ApolloCM_CN_Figure6c.csv",
+      "sha256": "e47ba9af7c9e2464891f845c5e3bb22e6ed64b5312e0aa93b87856e2c857e5ce",
+      "mark_review_status": "checked_by_mark",
+      "mark_review_date": "2026-09-28"
+    },
+    {
+      "dataset_id": "apollo-cm-ca-figure6d-csv",
+      "path": "sources/NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics/ApolloCM_CA_Figure6d.csv",
+      "sha256": "b966285a860a919e6103e7b76a661a0124a0d24037243793c227037914f272ca",
+      "mark_review_status": "checked_by_mark",
+      "mark_review_date": "2026-09-28"
+    }
+  ]
+}

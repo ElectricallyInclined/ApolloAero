@@ -1,0 +1,556 @@
+mach,reynolds_number_millions,beta_deg,yawing_moment_coefficient_apex,source_alpha_deg,source_pitching_moment_coefficient_apex,derivation,figure_group,facility
+0.4,1.078,-90,-0.2432,90,-0.2432,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,-85,-0.233,85,-0.233,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,-80,-0.2227,80,-0.2227,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,-75,-0.1807,75,-0.1807,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,-70,-0.1386,70,-0.1386,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,-65,-0.142,65,-0.142,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,-60,-0.1455,60,-0.1455,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,-55,-0.1727,55,-0.1727,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,-50,-0.2,50,-0.2,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,-45,-0.2205,45,-0.2205,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,-40,-0.2409,40,-0.2409,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,-35,-0.25,35,-0.25,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,-30,-0.2591,30,-0.2591,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,-25,-0.2341,25,-0.2341,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,-20,-0.2091,20,-0.2091,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,-15,-0.1545,15,-0.1545,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,-10,-0.1,10,-0.1,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,-5,-0.0443,5,-0.0443,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,0,0,0,0.0114,zero_by_symmetry,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,5,0.0443,5,-0.0443,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,10,0.1,10,-0.1,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,15,0.1545,15,-0.1545,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,20,0.2091,20,-0.2091,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,25,0.2341,25,-0.2341,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,30,0.2591,30,-0.2591,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,35,0.25,35,-0.25,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,40,0.2409,40,-0.2409,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,45,0.2205,45,-0.2205,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,50,0.2,50,-0.2,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,55,0.1727,55,-0.1727,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,60,0.1455,60,-0.1455,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,65,0.142,65,-0.142,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,70,0.1386,70,-0.1386,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,75,0.1807,75,-0.1807,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,80,0.2227,80,-0.2227,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,85,0.233,85,-0.233,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.4,1.078,90,0.2432,90,-0.2432,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,-90,-0.2614,90,-0.2614,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,-85,-0.2784,85,-0.2784,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,-80,-0.2955,80,-0.2955,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,-75,-0.3318,75,-0.3318,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,-70,-0.3682,70,-0.3682,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,-65,-0.3875,65,-0.3875,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,-60,-0.4068,60,-0.4068,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,-55,-0.3977,55,-0.3977,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,-50,-0.3886,50,-0.3886,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,-45,-0.375,45,-0.375,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,-40,-0.3614,40,-0.3614,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,-35,-0.3386,35,-0.3386,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,-30,-0.3159,30,-0.3159,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,-25,-0.2727,25,-0.2727,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,-20,-0.2295,20,-0.2295,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,-15,-0.1773,15,-0.1773,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,-10,-0.125,10,-0.125,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,-5,-0.0625,5,-0.0625,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,0,0,0,0,zero_by_symmetry,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,5,0.0625,5,-0.0625,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,10,0.125,10,-0.125,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,15,0.1773,15,-0.1773,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,20,0.2295,20,-0.2295,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,25,0.2727,25,-0.2727,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,30,0.3159,30,-0.3159,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,35,0.3386,35,-0.3386,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,40,0.3614,40,-0.3614,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,45,0.375,45,-0.375,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,50,0.3886,50,-0.3886,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,55,0.3977,55,-0.3977,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,60,0.4068,60,-0.4068,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,65,0.3875,65,-0.3875,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,70,0.3682,70,-0.3682,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,75,0.3318,75,-0.3318,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,80,0.2955,80,-0.2955,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,85,0.2784,85,-0.2784,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.7,1.078,90,0.2614,90,-0.2614,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,-90,-0.3659,90,-0.3659,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,-85,-0.375,85,-0.375,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,-80,-0.3841,80,-0.3841,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,-75,-0.392,75,-0.392,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,-70,-0.4,70,-0.4,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,-65,-0.4193,65,-0.4193,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,-60,-0.4386,60,-0.4386,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,-55,-0.4364,55,-0.4364,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,-50,-0.4341,50,-0.4341,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,-45,-0.408,45,-0.408,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,-40,-0.3818,40,-0.3818,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,-35,-0.3409,35,-0.3409,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,-30,-0.3,30,-0.3,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,-25,-0.2523,25,-0.2523,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,-20,-0.2045,20,-0.2045,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,-15,-0.1545,15,-0.1545,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,-10,-0.1045,10,-0.1045,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,-5,-0.042,5,-0.042,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,0,0,0,0.0205,zero_by_symmetry,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,5,0.042,5,-0.042,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,10,0.1045,10,-0.1045,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,15,0.1545,15,-0.1545,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,20,0.2045,20,-0.2045,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,25,0.2523,25,-0.2523,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,30,0.3,30,-0.3,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,35,0.3409,35,-0.3409,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,40,0.3818,40,-0.3818,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,45,0.408,45,-0.408,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,50,0.4341,50,-0.4341,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,55,0.4364,55,-0.4364,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,60,0.4386,60,-0.4386,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,65,0.4193,65,-0.4193,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,70,0.4,70,-0.4,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,75,0.392,75,-0.392,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,80,0.3841,80,-0.3841,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,85,0.375,85,-0.375,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+0.9,1.078,90,0.3659,90,-0.3659,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,-90,-0.4477,90,-0.4477,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,-85,-0.4693,85,-0.4693,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,-80,-0.4909,80,-0.4909,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,-75,-0.492,75,-0.492,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,-70,-0.4932,70,-0.4932,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,-65,-0.4955,65,-0.4955,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,-60,-0.4977,60,-0.4977,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,-55,-0.4784,55,-0.4784,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,-50,-0.4591,50,-0.4591,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,-45,-0.4239,45,-0.4239,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,-40,-0.3886,40,-0.3886,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,-35,-0.3443,35,-0.3443,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,-30,-0.3,30,-0.3,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,-25,-0.2398,25,-0.2398,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,-20,-0.1795,20,-0.1795,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,-15,-0.1216,15,-0.1216,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,-10,-0.0636,10,-0.0636,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,-5,-0.0295,5,-0.0295,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,0,0,0,0.0045,zero_by_symmetry,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,5,0.0295,5,-0.0295,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,10,0.0636,10,-0.0636,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,15,0.1216,15,-0.1216,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,20,0.1795,20,-0.1795,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,25,0.2398,25,-0.2398,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,30,0.3,30,-0.3,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,35,0.3443,35,-0.3443,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,40,0.3886,40,-0.3886,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,45,0.4239,45,-0.4239,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,50,0.4591,50,-0.4591,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,55,0.4784,55,-0.4784,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,60,0.4977,60,-0.4977,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,65,0.4955,65,-0.4955,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,70,0.4932,70,-0.4932,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,75,0.492,75,-0.492,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,80,0.4909,80,-0.4909,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,85,0.4693,85,-0.4693,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.1,1.078,90,0.4477,90,-0.4477,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,-90,-0.4614,90,-0.4614,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,-85,-0.4818,85,-0.4818,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,-80,-0.5023,80,-0.5023,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,-75,-0.4943,75,-0.4943,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,-70,-0.4864,70,-0.4864,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,-65,-0.4807,65,-0.4807,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,-60,-0.475,60,-0.475,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,-55,-0.4636,55,-0.4636,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,-50,-0.4523,50,-0.4523,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,-45,-0.4193,45,-0.4193,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,-40,-0.3864,40,-0.3864,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,-35,-0.3432,35,-0.3432,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,-30,-0.3,30,-0.3,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,-25,-0.2443,25,-0.2443,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,-20,-0.1886,20,-0.1886,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,-15,-0.1352,15,-0.1352,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,-10,-0.0818,10,-0.0818,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,-5,-0.0443,5,-0.0443,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,0,0,0,-0.0068,zero_by_symmetry,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,5,0.0443,5,-0.0443,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,10,0.0818,10,-0.0818,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,15,0.1352,15,-0.1352,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,20,0.1886,20,-0.1886,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,25,0.2443,25,-0.2443,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,30,0.3,30,-0.3,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,35,0.3432,35,-0.3432,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,40,0.3864,40,-0.3864,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,45,0.4193,45,-0.4193,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,50,0.4523,50,-0.4523,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,55,0.4636,55,-0.4636,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,60,0.475,60,-0.475,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,65,0.4807,65,-0.4807,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,70,0.4864,70,-0.4864,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,75,0.4943,75,-0.4943,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,80,0.5023,80,-0.5023,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,85,0.4818,85,-0.4818,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.2,1.078,90,0.4614,90,-0.4614,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,-90,-0.5,90,-0.5,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,-85,-0.5159,85,-0.5159,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,-80,-0.5318,80,-0.5318,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,-75,-0.5409,75,-0.5409,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,-70,-0.55,70,-0.55,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,-65,-0.5477,65,-0.5477,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,-60,-0.5455,60,-0.5455,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,-55,-0.5216,55,-0.5216,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,-50,-0.4977,50,-0.4977,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,-45,-0.4568,45,-0.4568,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,-40,-0.4159,40,-0.4159,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,-35,-0.367,35,-0.367,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,-30,-0.3182,30,-0.3182,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,-25,-0.2534,25,-0.2534,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,-20,-0.1886,20,-0.1886,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,-15,-0.1295,15,-0.1295,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,-10,-0.0705,10,-0.0705,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,-5,-0.0261,5,-0.0261,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,0,0,0,0.0182,zero_by_symmetry,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,5,0.0261,5,-0.0261,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,10,0.0705,10,-0.0705,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,15,0.1295,15,-0.1295,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,20,0.1886,20,-0.1886,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,25,0.2534,25,-0.2534,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,30,0.3182,30,-0.3182,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,35,0.367,35,-0.367,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,40,0.4159,40,-0.4159,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,45,0.4568,45,-0.4568,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,50,0.4977,50,-0.4977,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,55,0.5216,55,-0.5216,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,60,0.5455,60,-0.5455,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,65,0.5477,65,-0.5477,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,70,0.55,70,-0.55,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,75,0.5409,75,-0.5409,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,80,0.5318,80,-0.5318,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,85,0.5159,85,-0.5159,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.35,0.924,90,0.5,90,-0.5,axisymmetric_sign_map,Figure 4(a),Ames 2x2-foot TWT
+1.575,1.16,-90,-0.4674,90,-0.4674,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,-85,-0.4876,85,-0.4876,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,-80,-0.5079,80,-0.5079,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,-75,-0.527,75,-0.527,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,-70,-0.5461,70,-0.5461,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,-65,-0.5337,65,-0.5337,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,-60,-0.5213,60,-0.5213,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,-55,-0.5067,55,-0.5067,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,-50,-0.4921,50,-0.4921,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,-45,-0.4607,45,-0.4607,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,-40,-0.4292,40,-0.4292,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,-35,-0.3809,35,-0.3809,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,-30,-0.3326,30,-0.3326,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,-25,-0.2764,25,-0.2764,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,-20,-0.2202,20,-0.2202,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,-15,-0.1697,15,-0.1697,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,-10,-0.1191,10,-0.1191,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,-5,-0.0618,5,-0.0618,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,0,0,0,-0.0045,zero_by_symmetry,Figure 5(a),NAA-SAL
+1.575,1.16,5,0.0618,5,-0.0618,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,10,0.1191,10,-0.1191,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,15,0.1697,15,-0.1697,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,20,0.2202,20,-0.2202,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,25,0.2764,25,-0.2764,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,30,0.3326,30,-0.3326,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,35,0.3809,35,-0.3809,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,40,0.4292,40,-0.4292,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,45,0.4607,45,-0.4607,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,50,0.4921,50,-0.4921,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,55,0.5067,55,-0.5067,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,60,0.5213,60,-0.5213,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,65,0.5337,65,-0.5337,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,70,0.5461,70,-0.5461,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,75,0.527,75,-0.527,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,80,0.5079,80,-0.5079,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,85,0.4876,85,-0.4876,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.575,1.16,90,0.4674,90,-0.4674,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+1.65,0.724,-90,-0.4472,90,-0.4472,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,-85,-0.4674,85,-0.4674,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,-80,-0.4876,80,-0.4876,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,-75,-0.5,75,-0.5,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,-70,-0.5124,70,-0.5124,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,-65,-0.4989,65,-0.4989,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,-60,-0.4854,60,-0.4854,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,-55,-0.4618,55,-0.4618,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,-50,-0.4382,50,-0.4382,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,-45,-0.4022,45,-0.4022,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,-40,-0.3663,40,-0.3663,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,-35,-0.327,35,-0.327,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,-30,-0.2876,30,-0.2876,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,-25,-0.2427,25,-0.2427,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,-20,-0.1978,20,-0.1978,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,-15,-0.1528,15,-0.1528,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,-10,-0.1079,10,-0.1079,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,-5,-0.0539,5,-0.0539,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,0,0,0,0,zero_by_symmetry,Figure 5(a),JPL-20 SWT
+1.65,0.724,5,0.0539,5,-0.0539,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,10,0.1079,10,-0.1079,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,15,0.1528,15,-0.1528,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,20,0.1978,20,-0.1978,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,25,0.2427,25,-0.2427,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,30,0.2876,30,-0.2876,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,35,0.327,35,-0.327,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,40,0.3663,40,-0.3663,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,45,0.4022,45,-0.4022,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,50,0.4382,50,-0.4382,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,55,0.4618,55,-0.4618,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,60,0.4854,60,-0.4854,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,65,0.4989,65,-0.4989,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,70,0.5124,70,-0.5124,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,75,0.5,75,-0.5,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,80,0.4876,80,-0.4876,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,85,0.4674,85,-0.4674,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+1.65,0.724,90,0.4472,90,-0.4472,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,-90,-0.4045,90,-0.4045,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,-85,-0.4326,85,-0.4326,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,-80,-0.4607,80,-0.4607,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,-75,-0.4697,75,-0.4697,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,-70,-0.4787,70,-0.4787,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,-65,-0.4764,65,-0.4764,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,-60,-0.4742,60,-0.4742,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,-55,-0.464,55,-0.464,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,-50,-0.4539,50,-0.4539,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,-45,-0.4225,45,-0.4225,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,-40,-0.391,40,-0.391,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,-35,-0.3539,35,-0.3539,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,-30,-0.3169,30,-0.3169,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,-25,-0.264,25,-0.264,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,-20,-0.2112,20,-0.2112,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,-15,-0.1573,15,-0.1573,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,-10,-0.1034,10,-0.1034,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,-5,-0.0461,5,-0.0461,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,0,0,0,0.0112,zero_by_symmetry,Figure 5(a),JPL-20 SWT
+2.41,0.724,5,0.0461,5,-0.0461,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,10,0.1034,10,-0.1034,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,15,0.1573,15,-0.1573,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,20,0.2112,20,-0.2112,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,25,0.264,25,-0.264,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,30,0.3169,30,-0.3169,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,35,0.3539,35,-0.3539,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,40,0.391,40,-0.391,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,45,0.4225,45,-0.4225,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,50,0.4539,50,-0.4539,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,55,0.464,55,-0.464,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,60,0.4742,60,-0.4742,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,65,0.4764,65,-0.4764,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,70,0.4787,70,-0.4787,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,75,0.4697,75,-0.4697,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,80,0.4607,80,-0.4607,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,85,0.4326,85,-0.4326,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.41,0.724,90,0.4045,90,-0.4045,axisymmetric_sign_map,Figure 5(a),JPL-20 SWT
+2.49,0.79,-90,-0.4562,90,-0.4562,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,-85,-0.4888,85,-0.4888,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,-80,-0.5213,80,-0.5213,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,-75,-0.5416,75,-0.5416,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,-70,-0.5618,70,-0.5618,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,-65,-0.5562,65,-0.5562,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,-60,-0.5506,60,-0.5506,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,-55,-0.5326,55,-0.5326,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,-50,-0.5146,50,-0.5146,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,-45,-0.4775,45,-0.4775,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,-40,-0.4404,40,-0.4404,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,-35,-0.3989,35,-0.3989,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,-30,-0.3573,30,-0.3573,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,-25,-0.3022,25,-0.3022,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,-20,-0.2472,20,-0.2472,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,-15,-0.1955,15,-0.1955,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,-10,-0.1438,10,-0.1438,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,-5,-0.0697,5,-0.0697,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,0,0,0,0.0045,zero_by_symmetry,Figure 5(a),NAA-SAL
+2.49,0.79,5,0.0697,5,-0.0697,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,10,0.1438,10,-0.1438,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,15,0.1955,15,-0.1955,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,20,0.2472,20,-0.2472,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,25,0.3022,25,-0.3022,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,30,0.3573,30,-0.3573,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,35,0.3989,35,-0.3989,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,40,0.4404,40,-0.4404,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,45,0.4775,45,-0.4775,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,50,0.5146,50,-0.5146,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,55,0.5326,55,-0.5326,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,60,0.5506,60,-0.5506,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,65,0.5562,65,-0.5562,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,70,0.5618,70,-0.5618,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,75,0.5416,75,-0.5416,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,80,0.5213,80,-0.5213,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,85,0.4888,85,-0.4888,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+2.49,0.79,90,0.4562,90,-0.4562,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,-90,-0.4247,90,-0.4247,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,-85,-0.4596,85,-0.4596,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,-80,-0.4944,80,-0.4944,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,-75,-0.5135,75,-0.5135,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,-70,-0.5326,70,-0.5326,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,-65,-0.5348,65,-0.5348,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,-60,-0.5371,60,-0.5371,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,-55,-0.5225,55,-0.5225,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,-50,-0.5079,50,-0.5079,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,-45,-0.4764,45,-0.4764,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,-40,-0.4449,40,-0.4449,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,-35,-0.4056,35,-0.4056,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,-30,-0.3663,30,-0.3663,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,-25,-0.3079,25,-0.3079,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,-20,-0.2494,20,-0.2494,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,-15,-0.1966,15,-0.1966,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,-10,-0.1438,10,-0.1438,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,-5,-0.0697,5,-0.0697,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,0,0,0,0.0045,zero_by_symmetry,Figure 5(a),NAA-SAL
+3.27,0.54,5,0.0697,5,-0.0697,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,10,0.1438,10,-0.1438,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,15,0.1966,15,-0.1966,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,20,0.2494,20,-0.2494,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,25,0.3079,25,-0.3079,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,30,0.3663,30,-0.3663,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,35,0.4056,35,-0.4056,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,40,0.4449,40,-0.4449,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,45,0.4764,45,-0.4764,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,50,0.5079,50,-0.5079,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,55,0.5225,55,-0.5225,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,60,0.5371,60,-0.5371,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,65,0.5348,65,-0.5348,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,70,0.5326,70,-0.5326,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,75,0.5135,75,-0.5135,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,80,0.4944,80,-0.4944,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,85,0.4596,85,-0.4596,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.27,0.54,90,0.4247,90,-0.4247,axisymmetric_sign_map,Figure 5(a),NAA-SAL
+3.99,1.078,-90,-0.4042,90,-0.4042,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,-85,-0.4307,85,-0.4307,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,-80,-0.4573,80,-0.4573,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,-75,-0.4677,75,-0.4677,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,-70,-0.4782,70,-0.4782,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,-65,-0.4772,65,-0.4772,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,-60,-0.4763,60,-0.4763,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,-55,-0.4706,55,-0.4706,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,-50,-0.4649,50,-0.4649,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,-45,-0.4459,45,-0.4459,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,-40,-0.4269,40,-0.4269,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,-35,-0.3985,35,-0.3985,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,-30,-0.37,30,-0.37,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,-25,-0.3472,25,-0.3472,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,-20,-0.3245,20,-0.3245,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,-15,-0.2495,15,-0.2495,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,-10,-0.1746,10,-0.1746,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,-5,-0.0863,5,-0.0863,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,0,0,0,0.0019,zero_by_symmetry,Figure 6(a),
+3.99,1.078,5,0.0863,5,-0.0863,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,10,0.1746,10,-0.1746,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,15,0.2495,15,-0.2495,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,20,0.3245,20,-0.3245,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,25,0.3472,25,-0.3472,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,30,0.37,30,-0.37,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,35,0.3985,35,-0.3985,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,40,0.4269,40,-0.4269,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,45,0.4459,45,-0.4459,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,50,0.4649,50,-0.4649,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,55,0.4706,55,-0.4706,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,60,0.4763,60,-0.4763,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,65,0.4772,65,-0.4772,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,70,0.4782,70,-0.4782,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,75,0.4677,75,-0.4677,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,80,0.4573,80,-0.4573,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,85,0.4307,85,-0.4307,axisymmetric_sign_map,Figure 6(a),
+3.99,1.078,90,0.4042,90,-0.4042,axisymmetric_sign_map,Figure 6(a),
+5,0.764,-90,-0.3985,90,-0.3985,axisymmetric_sign_map,Figure 6(a),
+5,0.764,-85,-0.4231,85,-0.4231,axisymmetric_sign_map,Figure 6(a),
+5,0.764,-80,-0.4478,80,-0.4478,axisymmetric_sign_map,Figure 6(a),
+5,0.764,-75,-0.4592,75,-0.4592,axisymmetric_sign_map,Figure 6(a),
+5,0.764,-70,-0.4706,70,-0.4706,axisymmetric_sign_map,Figure 6(a),
+5,0.764,-65,-0.4715,65,-0.4715,axisymmetric_sign_map,Figure 6(a),
+5,0.764,-60,-0.4725,60,-0.4725,axisymmetric_sign_map,Figure 6(a),
+5,0.764,-55,-0.4696,55,-0.4696,axisymmetric_sign_map,Figure 6(a),
+5,0.764,-50,-0.4668,50,-0.4668,axisymmetric_sign_map,Figure 6(a),
+5,0.764,-45,-0.4554,45,-0.4554,axisymmetric_sign_map,Figure 6(a),
+5,0.764,-40,-0.444,40,-0.444,axisymmetric_sign_map,Figure 6(a),
+5,0.764,-35,-0.4298,35,-0.4298,axisymmetric_sign_map,Figure 6(a),
+5,0.764,-30,-0.4156,30,-0.4156,axisymmetric_sign_map,Figure 6(a),
+5,0.764,-25,-0.3729,25,-0.3729,axisymmetric_sign_map,Figure 6(a),
+5,0.764,-20,-0.3302,20,-0.3302,axisymmetric_sign_map,Figure 6(a),
+5,0.764,-15,-0.2495,15,-0.2495,axisymmetric_sign_map,Figure 6(a),
+5,0.764,-10,-0.1689,10,-0.1689,axisymmetric_sign_map,Figure 6(a),
+5,0.764,-5,-0.0844,5,-0.0844,axisymmetric_sign_map,Figure 6(a),
+5,0.764,0,0,0,0,zero_by_symmetry,Figure 6(a),
+5,0.764,5,0.0844,5,-0.0844,axisymmetric_sign_map,Figure 6(a),
+5,0.764,10,0.1689,10,-0.1689,axisymmetric_sign_map,Figure 6(a),
+5,0.764,15,0.2495,15,-0.2495,axisymmetric_sign_map,Figure 6(a),
+5,0.764,20,0.3302,20,-0.3302,axisymmetric_sign_map,Figure 6(a),
+5,0.764,25,0.3729,25,-0.3729,axisymmetric_sign_map,Figure 6(a),
+5,0.764,30,0.4156,30,-0.4156,axisymmetric_sign_map,Figure 6(a),
+5,0.764,35,0.4298,35,-0.4298,axisymmetric_sign_map,Figure 6(a),
+5,0.764,40,0.444,40,-0.444,axisymmetric_sign_map,Figure 6(a),
+5,0.764,45,0.4554,45,-0.4554,axisymmetric_sign_map,Figure 6(a),
+5,0.764,50,0.4668,50,-0.4668,axisymmetric_sign_map,Figure 6(a),
+5,0.764,55,0.4696,55,-0.4696,axisymmetric_sign_map,Figure 6(a),
+5,0.764,60,0.4725,60,-0.4725,axisymmetric_sign_map,Figure 6(a),
+5,0.764,65,0.4715,65,-0.4715,axisymmetric_sign_map,Figure 6(a),
+5,0.764,70,0.4706,70,-0.4706,axisymmetric_sign_map,Figure 6(a),
+5,0.764,75,0.4592,75,-0.4592,axisymmetric_sign_map,Figure 6(a),
+5,0.764,80,0.4478,80,-0.4478,axisymmetric_sign_map,Figure 6(a),
+5,0.764,85,0.4231,85,-0.4231,axisymmetric_sign_map,Figure 6(a),
+5,0.764,90,0.3985,90,-0.3985,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,-90,-0.3947,90,-0.3947,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,-85,-0.4298,85,-0.4298,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,-80,-0.4649,80,-0.4649,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,-75,-0.481,75,-0.481,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,-70,-0.4972,70,-0.4972,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,-65,-0.4972,65,-0.4972,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,-60,-0.4972,60,-0.4972,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,-55,-0.4943,55,-0.4943,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,-50,-0.4915,50,-0.4915,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,-45,-0.4763,45,-0.4763,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,-40,-0.4611,40,-0.4611,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,-35,-0.4336,35,-0.4336,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,-30,-0.4061,30,-0.4061,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,-25,-0.3548,25,-0.3548,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,-20,-0.3036,20,-0.3036,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,-15,-0.24,15,-0.24,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,-10,-0.1765,10,-0.1765,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,-5,-0.0873,5,-0.0873,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,0,0,0,0.0019,zero_by_symmetry,Figure 6(a),
+7.3,0.884,5,0.0873,5,-0.0873,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,10,0.1765,10,-0.1765,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,15,0.24,15,-0.24,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,20,0.3036,20,-0.3036,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,25,0.3548,25,-0.3548,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,30,0.4061,30,-0.4061,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,35,0.4336,35,-0.4336,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,40,0.4611,40,-0.4611,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,45,0.4763,45,-0.4763,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,50,0.4915,50,-0.4915,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,55,0.4943,55,-0.4943,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,60,0.4972,60,-0.4972,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,65,0.4972,65,-0.4972,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,70,0.4972,70,-0.4972,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,75,0.481,75,-0.481,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,80,0.4649,80,-0.4649,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,85,0.4298,85,-0.4298,axisymmetric_sign_map,Figure 6(a),
+7.3,0.884,90,0.3947,90,-0.3947,axisymmetric_sign_map,Figure 6(a),
+9,0.29,-90,-0.4099,90,-0.4099,axisymmetric_sign_map,Figure 6(a),
+9,0.29,-85,-0.4345,85,-0.4345,axisymmetric_sign_map,Figure 6(a),
+9,0.29,-80,-0.4592,80,-0.4592,axisymmetric_sign_map,Figure 6(a),
+9,0.29,-75,-0.4753,75,-0.4753,axisymmetric_sign_map,Figure 6(a),
+9,0.29,-70,-0.4915,70,-0.4915,axisymmetric_sign_map,Figure 6(a),
+9,0.29,-65,-0.4915,65,-0.4915,axisymmetric_sign_map,Figure 6(a),
+9,0.29,-60,-0.4915,60,-0.4915,axisymmetric_sign_map,Figure 6(a),
+9,0.29,-55,-0.4829,55,-0.4829,axisymmetric_sign_map,Figure 6(a),
+9,0.29,-50,-0.4744,50,-0.4744,axisymmetric_sign_map,Figure 6(a),
+9,0.29,-45,-0.4592,45,-0.4592,axisymmetric_sign_map,Figure 6(a),
+9,0.29,-40,-0.444,40,-0.444,axisymmetric_sign_map,Figure 6(a),
+9,0.29,-35,-0.426,35,-0.426,axisymmetric_sign_map,Figure 6(a),
+9,0.29,-30,-0.408,30,-0.408,axisymmetric_sign_map,Figure 6(a),
+9,0.29,-25,-0.3529,25,-0.3529,axisymmetric_sign_map,Figure 6(a),
+9,0.29,-20,-0.2979,20,-0.2979,axisymmetric_sign_map,Figure 6(a),
+9,0.29,-15,-0.2391,15,-0.2391,axisymmetric_sign_map,Figure 6(a),
+9,0.29,-10,-0.1803,10,-0.1803,axisymmetric_sign_map,Figure 6(a),
+9,0.29,-5,-0.0892,5,-0.0892,axisymmetric_sign_map,Figure 6(a),
+9,0.29,0,0,0,0.0019,zero_by_symmetry,Figure 6(a),
+9,0.29,5,0.0892,5,-0.0892,axisymmetric_sign_map,Figure 6(a),
+9,0.29,10,0.1803,10,-0.1803,axisymmetric_sign_map,Figure 6(a),
+9,0.29,15,0.2391,15,-0.2391,axisymmetric_sign_map,Figure 6(a),
+9,0.29,20,0.2979,20,-0.2979,axisymmetric_sign_map,Figure 6(a),
+9,0.29,25,0.3529,25,-0.3529,axisymmetric_sign_map,Figure 6(a),
+9,0.29,30,0.408,30,-0.408,axisymmetric_sign_map,Figure 6(a),
+9,0.29,35,0.426,35,-0.426,axisymmetric_sign_map,Figure 6(a),
+9,0.29,40,0.444,40,-0.444,axisymmetric_sign_map,Figure 6(a),
+9,0.29,45,0.4592,45,-0.4592,axisymmetric_sign_map,Figure 6(a),
+9,0.29,50,0.4744,50,-0.4744,axisymmetric_sign_map,Figure 6(a),
+9,0.29,55,0.4829,55,-0.4829,axisymmetric_sign_map,Figure 6(a),
+9,0.29,60,0.4915,60,-0.4915,axisymmetric_sign_map,Figure 6(a),
+9,0.29,65,0.4915,65,-0.4915,axisymmetric_sign_map,Figure 6(a),
+9,0.29,70,0.4915,70,-0.4915,axisymmetric_sign_map,Figure 6(a),
+9,0.29,75,0.4753,75,-0.4753,axisymmetric_sign_map,Figure 6(a),
+9,0.29,80,0.4592,80,-0.4592,axisymmetric_sign_map,Figure 6(a),
+9,0.29,85,0.4345,85,-0.4345,axisymmetric_sign_map,Figure 6(a),
+9,0.29,90,0.4099,90,-0.4099,axisymmetric_sign_map,Figure 6(a),
