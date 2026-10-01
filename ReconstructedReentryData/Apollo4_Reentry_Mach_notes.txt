@@ -1,0 +1,11 @@
+Source: User-loaded document in WebPlotDigitizer, printed page 39 (PDF page 47), Figure 8 continued, panel (b), Mach number M-infinity.
+
+Method: Rotated clockwise, cropped plot, calibrated linear XY axes in WebPlotDigitizer with rotation correction enabled, and manually selected 56 points. Points were checked visually against the curve. No fitted curve or uniform-time resampling was applied.
+
+Calibration: X1 = 29960 s, X2 = 30680 s; Y1 = 0, Y2 = 44. Calibration anchors used the plotted axis/grid marks. CSV time is ground elapsed time in seconds; Mach number is dimensionless.
+
+The first seven points follow the visibly dashed rising portion. The dashed-to-solid boundary is approximate; no physical meaning for the line style is inferred. Remaining points follow the solid curve, including its faint tail.
+
+These are approximate values digitized from a scanned plot, not original measurements. The dense grid, scan distortion, and faint tail limit precision. At the tracing zoom, one screen pixel represents roughly 1.3 s horizontally and 0.13 Mach vertically. Errors can exceed one pixel. Decimal places preserve digitization coordinates and do not indicate measurement accuracy; low-Mach tail values are especially uncertain in relative terms.
+
+CSV fields: ground_elapsed_time_s, mach_number, trace_segment. Times rounded to 0.1 s and Mach to 0.01. Sampling is intentionally denser around the early peak.

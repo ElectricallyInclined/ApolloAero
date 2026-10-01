@@ -1,0 +1,7 @@
+NASA TN D-5399, Apollo 4 entry aerodynamics. PDF page 45 (printed page 37), Figure 7(c), deceleration load factor L_f.
+
+This is a denser image-assisted trace of the single plotted curve. The original headerless Apollo4_Reentry_GLoads.csv (77 points) remains unchanged for comparison. Visual overlay confirms that its 77 points closely follow Figure 7(c); they were used to define a narrow search corridor for the new pixel trace. The new 312 points were sampled along the rotated 2.5x PDF image at roughly 2-4-second intervals, with original feature anchors retained; pixels were selected with a curve-aligned darkness score. The overlay (Figure7c_GLoads_dense_overlay.png) beside this CSV shows the resulting trace against the source scan. No smoothing or physical model was applied.
+
+Calibration from grid lines in the rotated render: x=390 at 29960 s and x=1637 at 30760 s; y=1190 at 0 g and y=150 at 8 g. The horizontal axis is ground elapsed time in seconds; the vertical axis is deceleration load factor in g. Approximate scan-derived values, not original measurements. Dense horizontal grid lines, curve thickness and scan distortion limit accuracy; errors may exceed a pixel (about 0.64 s horizontally and 0.008 g vertically at rendering scale). The two-decimal g values preserve plotted coordinates and are not an accuracy claim.
+
+Mark review: Mark explicitly checked the 312-point CSV after viewing its overlay on 2026-09-28. The original 77-point CSV and the separate dynamic-pressure CSV are outside this review scope.

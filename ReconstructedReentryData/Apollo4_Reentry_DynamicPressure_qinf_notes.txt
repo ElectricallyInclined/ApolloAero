@@ -1,0 +1,9 @@
+NASA TN D-5399, Apollo 4 entry aerodynamics. PDF page 46 (printed page 38), Figure 8(a), dynamic pressure.
+
+This file traces only the solid q_inf curve. The separate dashed q_inf,p curve was omitted at the user's request.
+
+Method: WebPlotDigitizer calibrated linear XY axes; 54 manually selected points along the solid curve, including its two peaks. No smoothing, fitting or uniform-time resampling. Calibration anchors: 29960 s and 30760 s horizontally, 0 and 560 lb/ft^2 vertically. Ground elapsed time is plotted in seconds.
+
+Approximate scan digitization, not original flight measurements. The dense grid, curve thickness and scan quality limit accuracy. At tracing scale, one image pixel represented about 1.5 s horizontally and 1.5 lb/ft^2 vertically; errors can exceed one pixel. The 0.1 decimals preserve selected coordinates and do not claim measurement precision. The chart also has a printed note about flight-measured pressure exceeding 5 percent of full scale; use the report for that qualification.
+
+CSV fields: ground_elapsed_time_s, dynamic_pressure_lb_ft2. Mark review: not yet recorded for this file.
