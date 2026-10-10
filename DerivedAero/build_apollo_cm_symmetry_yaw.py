@@ -20,7 +20,7 @@ parser.add_argument('--root',type=Path,default=Path(__file__).resolve().parents[
 parser.add_argument('--output-dir',type=Path)
 args=parser.parse_args()
 root=args.root.resolve()
-out=(args.output_dir or root/'derived').resolve()
+out=(args.output_dir or root/'DerivedAero').resolve()
 source_id='NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics'
 names=[f'ApolloCM_CmApex_Figure{figure}a.csv' for figure in (4,5,6)]
 output_name='ApolloCM_yaw_apex_symmetry_Figures4a5a6a.csv'
@@ -98,7 +98,7 @@ provenance={
     'row_count':len(rows),
     'mach_station_count':len(domains),
     'source_report':'NASA TN D-4688',
-    'source_pdf':f'sources/{source_id}/19680021973.pdf',
+    'source_pdf':'ReconstructedAeroData/19680021973.pdf',
     'configuration':'C',
     'reference':'theoretical apex',
     'flight_condition':'pure sideslip, alpha=0 degrees',

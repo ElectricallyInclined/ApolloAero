@@ -23,4 +23,4 @@ Ernest R. Hillje, October 1969. Mach plot verified at printed p.39 / PDF p.47, F
 
 Supporting figure images, where present, are in `figures/`. Their inherited filenames and page mappings require verification; they are evidence candidates, not reviewed data.
 
-Review authority: [top-level index](../../DATA_INDEX.md) and [registry](../../DATASETS.json). Existing embedded confidence/quality statements are historical and do not override those records.
+Review status is documented in the table above; this folder is retained as legacy source material. Existing embedded confidence/quality statements are historical and do not override those records.

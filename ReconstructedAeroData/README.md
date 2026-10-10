@@ -27,12 +27,12 @@ NASA TN D-4688 cover verified; August 1968. Figure 4(b) c.g. moment plot at prin
 | [ApolloCM_CmApex_Figure5a.csv](ApolloCM_CmApex_Figure5a.csv) | **Checked by Mark — 2026-09-29** | Figure 5(a), printed p.48 / PDF p.61; configuration C, pitching-moment coefficient about apex, M=1.575-3.27 |
 | [ApolloCM_CmApex_Figure6a.csv](ApolloCM_CmApex_Figure6a.csv) | **Checked by Mark — 2026-09-29** | Figure 6(a), printed p.54 / PDF p.67; configuration C, pitching-moment coefficient about apex, M=3.99-9.0 |
 
-The Figure 4-6 panel matrix includes c.g. pitching moment, normal force and axial force across M=0.4-9.0. [Reproducible seven-panel trace script](trace_ApolloCM_Figures4to6.py). Each CSV has a matching `_notes.txt` and `_overlay.png` in this folder. The nine b/c/d CSVs were checked by Mark on 2026-09-28. Three apex-moment a-panel CSVs were added and checked by Mark on 2026-09-29; they remain excluded from the stitched c.g. aeromodel.
+The Figure 4-6 panel matrix includes c.g. pitching moment, normal force and axial force across M=0.4-9.0.  Each CSV has a matching `_notes.txt` and `_overlay.png` in this folder. The nine b/c/d CSVs were checked by Mark on 2026-09-28. Three apex-moment a-panel CSVs were added and checked by Mark on 2026-09-29; they remain excluded from the stitched c.g. aeromodel.
 
-[Figure 4(b) extraction notes](ApolloCM_CmCG_Figure4b_notes.txt), [source overlay](ApolloCM_CmCG_Figure4b_overlay.png), and [reproducible trace script](trace_ApolloCM_CmCG_Figure4b.py). The six Mach curves are normalized to separate local zero lines. [Figure 5(b) extraction notes](ApolloCM_CmCG_Figure5b_notes.txt), [higher-Mach overlay](ApolloCM_CmCG_Figure5b_overlay.png), and [higher-Mach trace script](trace_ApolloCM_CmCG_Figure5b.py) document the five additional curves and their separate zero lines.
+[Figure 4(b) extraction notes](ApolloCM_CmCG_Figure4b_notes.txt), [source overlay](ApolloCM_CmCG_Figure4b_overlay.png). The six Mach curves are normalized to separate local zero lines. [Figure 5(b) extraction notes](ApolloCM_CmCG_Figure5b_notes.txt), [higher-Mach overlay](ApolloCM_CmCG_Figure5b_overlay.png) document the five additional curves and their separate zero lines.
 
-[Apex-moment trace script](trace_ApolloCM_CmApex_Figures4to6.py) covers Figures 4(a), 5(a), and 6(a). Each has a CSV, overlay, and notes. The apex and c.g. moment references must stay distinct.
+Figures 4(a), 5(a), and 6(a) each have a CSV, overlay, and notes. Each has a CSV, overlay, and notes. The apex and c.g. moment references must stay distinct.
 
 Supporting figure images, where present, are in `figures/`. Their inherited filenames and page mappings require verification; they are evidence candidates, not reviewed data.
 
-Review authority: [top-level index](../../DATA_INDEX.md) and [registry](../../DATASETS.json). Existing embedded confidence/quality statements are historical and do not override those records.
+Review authority: [public registry](../DATASETS.json). Existing embedded confidence/quality statements are historical and do not override those records.

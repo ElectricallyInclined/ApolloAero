@@ -5,7 +5,7 @@
   "row_count": 555,
   "mach_station_count": 15,
   "source_report": "NASA TN D-4688",
-  "source_pdf": "sources/NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics/19680021973.pdf",
+  "source_pdf": "ReconstructedAeroData/19680021973.pdf",
   "configuration": "C",
   "reference": "nominal c.g., x/d=-0.685, y/d=0, z/d=0.059 from theoretical apex",
   "flight_condition": "pure sideslip, alpha=0 degrees",
@@ -132,42 +132,42 @@
   "inputs": [
     {
       "dataset_id": "apollo-cm-cmapex-figure4a-csv",
-      "path": "sources/NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics/ApolloCM_CmApex_Figure4a.csv",
+      "path": "ReconstructedAeroData/ApolloCM_CmApex_Figure4a.csv",
       "sha256": "734cb6d9828e5be4888144a6bb447cbd61fe90183e2042a59bcf75cac145bef0",
       "mark_review_status": "checked_by_mark",
       "mark_review_date": "2026-09-29"
     },
     {
       "dataset_id": "apollo-cm-cn-figure4c-csv",
-      "path": "sources/NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics/ApolloCM_CN_Figure4c.csv",
+      "path": "ReconstructedAeroData/ApolloCM_CN_Figure4c.csv",
       "sha256": "69a12691d63876fa7cfb2570b96e207c4f2869a3c611f1d59df5e91fd0b1e032",
       "mark_review_status": "checked_by_mark",
       "mark_review_date": "2026-09-28"
     },
     {
       "dataset_id": "apollo-cm-cmapex-figure5a-csv",
-      "path": "sources/NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics/ApolloCM_CmApex_Figure5a.csv",
+      "path": "ReconstructedAeroData/ApolloCM_CmApex_Figure5a.csv",
       "sha256": "3e10d7e215d90c9a12479aa1c403086f3dcb840f205fc92b3055247adf1c0bca",
       "mark_review_status": "checked_by_mark",
       "mark_review_date": "2026-09-29"
     },
     {
       "dataset_id": "apollo-cm-cn-figure5c-csv",
-      "path": "sources/NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics/ApolloCM_CN_Figure5c.csv",
+      "path": "ReconstructedAeroData/ApolloCM_CN_Figure5c.csv",
       "sha256": "4712dcc71ce16cb16072db646273e4684d4c6f7c82fd00504b3816176c276405",
       "mark_review_status": "checked_by_mark",
       "mark_review_date": "2026-09-28"
     },
     {
       "dataset_id": "apollo-cm-cmapex-figure6a-csv",
-      "path": "sources/NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics/ApolloCM_CmApex_Figure6a.csv",
+      "path": "ReconstructedAeroData/ApolloCM_CmApex_Figure6a.csv",
       "sha256": "70e7fcb0f71d834123f82d6c229d35f6f564353bdcac78d1651c56bcb192047c",
       "mark_review_status": "checked_by_mark",
       "mark_review_date": "2026-09-29"
     },
     {
       "dataset_id": "apollo-cm-cn-figure6c-csv",
-      "path": "sources/NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics/ApolloCM_CN_Figure6c.csv",
+      "path": "ReconstructedAeroData/ApolloCM_CN_Figure6c.csv",
       "sha256": "e47ba9af7c9e2464891f845c5e3bb22e6ed64b5312e0aa93b87856e2c857e5ce",
       "mark_review_status": "checked_by_mark",
       "mark_review_date": "2026-09-28"

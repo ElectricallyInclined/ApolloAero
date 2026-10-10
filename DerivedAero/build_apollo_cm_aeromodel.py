@@ -22,7 +22,7 @@ PARSER.add_argument('--root', type=Path, default=Path(__file__).resolve().parent
 PARSER.add_argument('--output-dir', type=Path)
 ARGS = PARSER.parse_args()
 ROOT = ARGS.root.resolve()
-OUT = (ARGS.output_dir or ROOT/'derived').resolve()
+OUT = (ARGS.output_dir or ROOT/'DerivedAero').resolve()
 SOURCE_ID = 'NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics'
 OUTPUT_NAME = 'ApolloCM_aeromodel_Figures4to6.csv'
 SOURCE_NAMES = {
@@ -52,7 +52,7 @@ def normalized_facility(value: str) -> str:
 
 registry = json.loads((ROOT/'DATASETS.json').read_text(encoding='utf-8'))
 source_datasets = {Path(d['path']).name: d for d in registry['datasets'] if d['source_id'] == SOURCE_ID}
-source_dir = ROOT/'sources'/SOURCE_ID
+source_dir = ROOT/'ReconstructedAeroData'
 series: dict[tuple[int, str, Decimal], dict] = {}
 inputs = []
 

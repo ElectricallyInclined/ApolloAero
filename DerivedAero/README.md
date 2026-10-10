@@ -1,6 +1,6 @@
 # Apollo CM aerodynamic model, NASA TN D-4688
 
-[ApolloCM_aeromodel_Figures4to6.csv](ApolloCM_aeromodel_Figures4to6.csv) combines the nine reviewed Figure 4-6 b/c/d source CSVs for configuration C: pitching-moment coefficient about the c.g., normal-force coefficient, and axial-force coefficient. The source report and all nine input CSVs are in the [NASA TN D-4688 source folder](../sources/NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics/README.md).
+[ApolloCM_aeromodel_Figures4to6.csv](ApolloCM_aeromodel_Figures4to6.csv) combines the nine reviewed Figure 4-6 b/c/d source CSVs for configuration C: pitching-moment coefficient about the c.g., normal-force coefficient, and axial-force coefficient. The source report and all nine input CSVs are in the [NASA TN D-4688 source folder](../ReconstructedAeroData/README.md).
 
 The table has 670 rows at 15 measured Mach stations from 0.4 through 9.0. Angle coverage is the *common supported interval* of all three curves at each Mach station; see the exact per-Mach ranges in [provenance](ApolloCM_aeromodel_Figures4to6_provenance.json). It reaches -25° for some Figure 5 stations and 200° for the highest Figure 6 stations. Every row contains all three coefficients.
 

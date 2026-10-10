@@ -1,0 +1,374 @@
+{
+  "schema_version": 1,
+  "updated": "2026-10-10",
+  "review_policy": "Mark review applies only to the named CSV, review scope, and SHA-256. Editing a reviewed CSV makes that review stale until Mark rechecks it. Automated checks never confer Mark review.",
+  "datasets": [
+    {
+      "id": "apollo-cm-cmcg-figure4b-csv",
+      "source_id": "NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics",
+      "path": "ReconstructedAeroData/ApolloCM_CmCG_Figure4b.csv",
+      "topics": [
+        "aerodynamics"
+      ],
+      "source_locator": "Figure 4(b), printed p.43 / PDF p.56; configuration C, C_m about c.g., M=0.4-1.35",
+      "extraction_method": "Calibrated image-assisted trace with per-curve zero origins, 269 points; second-pass correction 2026-09-28",
+      "quality_status": "digitized_with_calibration",
+      "sha256": "507ba8405562a936ba341330cae72f3e7954e70c7a3e75b3451171d0d2669352",
+      "mark_review": {
+        "status": "checked_by_mark",
+        "reviewer": "Mark",
+        "date": "2026-09-28",
+        "scope": "Entire current 269-point ApolloCM_CmCG_Figure4b.csv for Figure 4b",
+        "reviewed_sha256": "507ba8405562a936ba341330cae72f3e7954e70c7a3e75b3451171d0d2669352",
+        "evidence": "Mark stated 'okay I reviewed them all, please mark them as reviewed' on 2026-09-28, after reviewing the corrected nine-panel Figure 4-6 matrix."
+      },
+      "notes": "M=0.9, alpha 20-60 deg: restored trace to the visible sloped line. Overlay and trace script updated. Current revised CSV checked by Mark; prior checked version retained in reviews/."
+    },
+    {
+      "id": "apollo-cm-cmcg-figure5b-csv",
+      "source_id": "NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics",
+      "path": "ReconstructedAeroData/ApolloCM_CmCG_Figure5b.csv",
+      "topics": [
+        "aerodynamics"
+      ],
+      "source_locator": "Figure 5(b), printed p.49 / PDF p.62; configuration C, C_m about c.g., M=1.575-3.27",
+      "extraction_method": "Calibrated image-assisted trace with per-curve zero origins, 208 points, 2026-09-28",
+      "quality_status": "digitized_with_calibration",
+      "sha256": "dd21b1589a0152a355e93fdcf047204a906a368474cfaa2ba24e4dd1b22daf20",
+      "mark_review": {
+        "status": "checked_by_mark",
+        "reviewer": "Mark",
+        "date": "2026-09-28",
+        "scope": "Entire 208-point ApolloCM_CmCG_Figure5b.csv for Figure 5(b)",
+        "reviewed_sha256": "dd21b1589a0152a355e93fdcf047204a906a368474cfaa2ba24e4dd1b22daf20",
+        "evidence": "User stated 'I have reviewed the data from figure 4 and 5 and the data looks good' on 2026-09-28, referring to the two NASA TN D-4688 c.g. moment CSVs."
+      },
+      "notes": "Five higher-Mach c.g. moment curves; local zero baselines normalized. Reynolds number and facility preserved from legend; overlay and notes beside PDF. Mark reviewed this CSV and found the data good on 2026-09-28."
+    },
+    {
+      "id": "apollo-cm-cn-figure4c-csv",
+      "source_id": "NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics",
+      "path": "ReconstructedAeroData/ApolloCM_CN_Figure4c.csv",
+      "topics": [
+        "aerodynamics"
+      ],
+      "source_locator": "Figure 4(c), printed p.44 / PDF p.57; configuration C, normal-force coefficient, M=0.4-1.35",
+      "extraction_method": "Calibrated image-assisted trace with per-curve zero origins, 235 points; second-pass correction 2026-09-28",
+      "quality_status": "digitized_with_calibration",
+      "sha256": "69a12691d63876fa7cfb2570b96e207c4f2869a3c611f1d59df5e91fd0b1e032",
+      "mark_review": {
+        "status": "checked_by_mark",
+        "reviewer": "Mark",
+        "date": "2026-09-28",
+        "scope": "Entire current 235-point ApolloCM_CN_Figure4c.csv for Figure 4c",
+        "reviewed_sha256": "69a12691d63876fa7cfb2570b96e207c4f2869a3c611f1d59df5e91fd0b1e032",
+        "evidence": "Mark stated 'okay I reviewed them all, please mark them as reviewed' on 2026-09-28, after reviewing the corrected nine-panel Figure 4-6 matrix."
+      },
+      "notes": "M=1.1, alpha 30-60 deg and M=1.2, alpha 130-150 deg corrected against the visible line. Overlay and trace script updated. Current CSV checked by Mark on 2026-09-28."
+    },
+    {
+      "id": "apollo-cm-ca-figure4d-csv",
+      "source_id": "NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics",
+      "path": "ReconstructedAeroData/ApolloCM_CA_Figure4d.csv",
+      "topics": [
+        "aerodynamics"
+      ],
+      "source_locator": "Figure 4(d), printed p.45 / PDF p.58; configuration C, axial-force coefficient, M=0.4-1.35",
+      "extraction_method": "Calibrated image-assisted trace with per-curve zero origins, 228 points; second-pass correction 2026-09-28",
+      "quality_status": "digitized_with_calibration",
+      "sha256": "a973cb068002525e6657f2d49744fef6cdb8c5f77da3c0342b13873fee08cee0",
+      "mark_review": {
+        "status": "checked_by_mark",
+        "reviewer": "Mark",
+        "date": "2026-09-28",
+        "scope": "Entire current 228-point ApolloCM_CA_Figure4d.csv for Figure 4d",
+        "reviewed_sha256": "a973cb068002525e6657f2d49744fef6cdb8c5f77da3c0342b13873fee08cee0",
+        "evidence": "Mark stated 'okay I reviewed them all, please mark them as reviewed' on 2026-09-28, after reviewing the corrected nine-panel Figure 4-6 matrix."
+      },
+      "notes": "All six Mach traces recalibrated from the source image; M=1.2 and M=1.35 were previously on neighboring rows. Grid-driven oscillations reduced. Overlay and trace script updated. Current CSV checked by Mark on 2026-09-28."
+    },
+    {
+      "id": "apollo-cm-cn-figure5c-csv",
+      "source_id": "NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics",
+      "path": "ReconstructedAeroData/ApolloCM_CN_Figure5c.csv",
+      "topics": [
+        "aerodynamics"
+      ],
+      "source_locator": "Figure 5(c), printed p.50 / PDF p.63; configuration C, normal-force coefficient, M=1.575-3.27",
+      "extraction_method": "Calibrated image-assisted trace with per-curve zero origins, 208 points; second-pass correction 2026-09-28",
+      "quality_status": "digitized_with_calibration",
+      "sha256": "4712dcc71ce16cb16072db646273e4684d4c6f7c82fd00504b3816176c276405",
+      "mark_review": {
+        "status": "checked_by_mark",
+        "reviewer": "Mark",
+        "date": "2026-09-28",
+        "scope": "Entire current 208-point ApolloCM_CN_Figure5c.csv for Figure 5c",
+        "reviewed_sha256": "4712dcc71ce16cb16072db646273e4684d4c6f7c82fd00504b3816176c276405",
+        "evidence": "Mark stated 'okay I reviewed them all, please mark them as reviewed' on 2026-09-28, after reviewing the corrected nine-panel Figure 4-6 matrix."
+      },
+      "notes": "M=3.27, alpha 10-40 deg corrected against the rising line. Overlay and trace script updated. Current CSV checked by Mark on 2026-09-28."
+    },
+    {
+      "id": "apollo-cm-ca-figure5d-csv",
+      "source_id": "NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics",
+      "path": "ReconstructedAeroData/ApolloCM_CA_Figure5d.csv",
+      "topics": [
+        "aerodynamics"
+      ],
+      "source_locator": "Figure 5(d), printed p.51 / PDF p.64; configuration C, axial-force coefficient, M=1.575-3.27",
+      "extraction_method": "Calibrated image-assisted trace with per-curve zero origins, 206 points; second-pass correction 2026-09-28",
+      "quality_status": "digitized_with_calibration",
+      "sha256": "346af30c08f867fdfd28b182999044b9285da92dfbcac3409ef0ee9401edb99a",
+      "mark_review": {
+        "status": "checked_by_mark",
+        "reviewer": "Mark",
+        "date": "2026-09-28",
+        "scope": "Entire current 206-point ApolloCM_CA_Figure5d.csv for Figure 5d",
+        "reviewed_sha256": "346af30c08f867fdfd28b182999044b9285da92dfbcac3409ef0ee9401edb99a",
+        "evidence": "Mark stated 'okay I reviewed them all, please mark them as reviewed' on 2026-09-28, after reviewing the corrected nine-panel Figure 4-6 matrix."
+      },
+      "notes": "M=2.49, alpha 170-190 deg flat tail corrected; removed a spurious bump. Overlay and trace script updated. Current CSV checked by Mark on 2026-09-28."
+    },
+    {
+      "id": "apollo-cm-cmcg-figure6b-csv",
+      "source_id": "NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics",
+      "path": "ReconstructedAeroData/ApolloCM_CmCG_Figure6b.csv",
+      "topics": [
+        "aerodynamics"
+      ],
+      "source_locator": "Figure 6(b), printed p.55 / PDF p.68; configuration C, pitching-moment coefficient about c.g., M=3.99-9.0",
+      "extraction_method": "Calibrated image-assisted trace with per-curve zero origins, 171 points; second-pass correction 2026-09-28",
+      "quality_status": "digitized_with_calibration",
+      "sha256": "458598413a55e8cdcb764d52e866e23dc9178d16760b73c7b6253cf285d2a2d7",
+      "mark_review": {
+        "status": "checked_by_mark",
+        "reviewer": "Mark",
+        "date": "2026-09-28",
+        "scope": "Entire current 171-point ApolloCM_CmCG_Figure6b.csv for Figure 6b",
+        "reviewed_sha256": "458598413a55e8cdcb764d52e866e23dc9178d16760b73c7b6253cf285d2a2d7",
+        "evidence": "Mark stated 'okay I reviewed them all, please mark them as reviewed' on 2026-09-28, after reviewing the corrected nine-panel Figure 4-6 matrix."
+      },
+      "notes": "M=7.3, alpha 160-200 deg corrected to the diamond-symbol trace. Overlay and trace script updated. Current CSV checked by Mark on 2026-09-28."
+    },
+    {
+      "id": "apollo-cm-cn-figure6c-csv",
+      "source_id": "NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics",
+      "path": "ReconstructedAeroData/ApolloCM_CN_Figure6c.csv",
+      "topics": [
+        "aerodynamics"
+      ],
+      "source_locator": "Figure 6(c), printed p.56 / PDF p.69; configuration C, normal-force coefficient, M=3.99-9.0",
+      "extraction_method": "Calibrated image-assisted trace with per-curve zero origins, 169 points, 2026-09-28",
+      "quality_status": "digitized_with_calibration",
+      "sha256": "e47ba9af7c9e2464891f845c5e3bb22e6ed64b5312e0aa93b87856e2c857e5ce",
+      "mark_review": {
+        "status": "checked_by_mark",
+        "reviewer": "Mark",
+        "date": "2026-09-28",
+        "scope": "Entire current 169-point ApolloCM_CN_Figure6c.csv for Figure 6c",
+        "reviewed_sha256": "e47ba9af7c9e2464891f845c5e3bb22e6ed64b5312e0aa93b87856e2c857e5ce",
+        "evidence": "Mark stated 'okay I reviewed them all, please mark them as reviewed' on 2026-09-28, after reviewing the corrected nine-panel Figure 4-6 matrix."
+      },
+      "notes": "4 Mach curves. Separate local zero-line calibration; overlay and notes beside PDF. Current CSV checked by Mark on 2026-09-28."
+    },
+    {
+      "id": "apollo-cm-ca-figure6d-csv",
+      "source_id": "NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics",
+      "path": "ReconstructedAeroData/ApolloCM_CA_Figure6d.csv",
+      "topics": [
+        "aerodynamics"
+      ],
+      "source_locator": "Figure 6(d), printed p.57 / PDF p.70; configuration C, axial-force coefficient, M=3.99-9.0",
+      "extraction_method": "Calibrated image-assisted trace with per-curve zero origins, 172 points; second-pass correction 2026-09-28",
+      "quality_status": "digitized_with_calibration",
+      "sha256": "b966285a860a919e6103e7b76a661a0124a0d24037243793c227037914f272ca",
+      "mark_review": {
+        "status": "checked_by_mark",
+        "reviewer": "Mark",
+        "date": "2026-09-28",
+        "scope": "Entire current 172-point ApolloCM_CA_Figure6d.csv for Figure 6d",
+        "reviewed_sha256": "b966285a860a919e6103e7b76a661a0124a0d24037243793c227037914f272ca",
+        "evidence": "Mark stated 'okay I reviewed them all, please mark them as reviewed' on 2026-09-28, after reviewing the corrected nine-panel Figure 4-6 matrix."
+      },
+      "notes": "M=3.99 and M=5.0 traces smoothed to remove grid/symbol-driven oscillations. Overlay and trace script updated. Current CSV checked by Mark on 2026-09-28."
+    },
+    {
+      "id": "apollo-cm-cmapex-figure4a-csv",
+      "source_id": "NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics",
+      "path": "ReconstructedAeroData/ApolloCM_CmApex_Figure4a.csv",
+      "topics": [
+        "aerodynamics"
+      ],
+      "source_locator": "Figure 4(a), printed p.42 / PDF p.55; configuration C, pitching-moment coefficient about apex, M=0.4-1.35",
+      "extraction_method": "Calibrated hand-guided trace with per-curve zero origins, 231 points at 5-degree spacing; 2026-09-29",
+      "quality_status": "digitized_with_calibration",
+      "sha256": "734cb6d9828e5be4888144a6bb447cbd61fe90183e2042a59bcf75cac145bef0",
+      "mark_review": {
+        "status": "checked_by_mark",
+        "reviewer": "Mark",
+        "date": "2026-09-29",
+        "scope": "Entire current 231-point ApolloCM_CmApex_Figure4a.csv, Figure 4(a)",
+        "reviewed_sha256": "734cb6d9828e5be4888144a6bb447cbd61fe90183e2042a59bcf75cac145bef0",
+        "evidence": "Mark stated 'okay those look good, you can mark them as reviewed' on 2026-09-29 after inspecting the corrected Figure 4(a) overlay and the three apex datasets."
+      },
+      "notes": "231 points across Figure 4(a). M=1.2 and 1.35 traces corrected over alpha 90-140 degrees after Mark flagged offsets. Apex reference; overlay, notes and trace script beside PDF. Checked by Mark on 2026-09-29; excluded from stitched c.g. model."
+    },
+    {
+      "id": "apollo-cm-cmapex-figure5a-csv",
+      "source_id": "NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics",
+      "path": "ReconstructedAeroData/ApolloCM_CmApex_Figure5a.csv",
+      "topics": [
+        "aerodynamics"
+      ],
+      "source_locator": "Figure 5(a), printed p.48 / PDF p.61; configuration C, pitching-moment coefficient about apex, M=1.575-3.27",
+      "extraction_method": "Calibrated hand-guided trace with per-curve zero origins, 208 points at 5-degree spacing; 2026-09-29",
+      "quality_status": "digitized_with_calibration",
+      "sha256": "3e10d7e215d90c9a12479aa1c403086f3dcb840f205fc92b3055247adf1c0bca",
+      "mark_review": {
+        "status": "checked_by_mark",
+        "reviewer": "Mark",
+        "date": "2026-09-29",
+        "scope": "Entire current 208-point ApolloCM_CmApex_Figure5a.csv, Figure 5(a)",
+        "reviewed_sha256": "3e10d7e215d90c9a12479aa1c403086f3dcb840f205fc92b3055247adf1c0bca",
+        "evidence": "Mark stated 'okay those look good, you can mark them as reviewed' on 2026-09-29 after inspecting the corrected Figure 4(a) overlay and the three apex datasets."
+      },
+      "notes": "208 points across Figure 5(a). Apex reference; separate overlay, notes and trace script beside PDF. Checked by Mark on 2026-09-29; excluded from stitched c.g. model."
+    },
+    {
+      "id": "apollo-cm-cmapex-figure6a-csv",
+      "source_id": "NASA_TN_D_4688_Apollo_Command_Module_Aerodynamic_Characteristics",
+      "path": "ReconstructedAeroData/ApolloCM_CmApex_Figure6a.csv",
+      "topics": [
+        "aerodynamics"
+      ],
+      "source_locator": "Figure 6(a), printed p.54 / PDF p.67; configuration C, pitching-moment coefficient about apex, M=3.99-9.0",
+      "extraction_method": "Calibrated hand-guided trace with per-curve zero origins, 171 points at 5-degree spacing; 2026-09-29",
+      "quality_status": "digitized_with_calibration",
+      "sha256": "70e7fcb0f71d834123f82d6c229d35f6f564353bdcac78d1651c56bcb192047c",
+      "mark_review": {
+        "status": "checked_by_mark",
+        "reviewer": "Mark",
+        "date": "2026-09-29",
+        "scope": "Entire current 171-point ApolloCM_CmApex_Figure6a.csv, Figure 6(a)",
+        "reviewed_sha256": "70e7fcb0f71d834123f82d6c229d35f6f564353bdcac78d1651c56bcb192047c",
+        "evidence": "Mark stated 'okay those look good, you can mark them as reviewed' on 2026-09-29 after inspecting the corrected Figure 4(a) overlay and the three apex datasets."
+      },
+      "notes": "171 points across Figure 6(a). Apex reference; separate overlay, notes and trace script beside PDF. Checked by Mark on 2026-09-29; excluded from stitched c.g. model."
+    },
+    {
+      "id": "apollo-cm-pitch-damping-d3890-fig14",
+      "source_id": "NASA_TN_D_3890_Apollo_Command_Module_Stability_Characteristics",
+      "path": "NASA_TN_D_3890_ApolloCM_PitchDamping/ApolloCM_pitch_damping_Figure14.csv",
+      "topics": [
+        "aerodynamics",
+        "capsule",
+        "pitch damping"
+      ],
+      "source_locator": "Figure 14, printed p.89 / PDF p.97; 57 digitized rows",
+      "extraction_method": "hand-selected plotted symbol centers",
+      "quality_status": "provisional_symbol_trace",
+      "sha256": "3d45c4aed4c4923bbd6282a106340a85b9e49fdda794f774a6b34c3e079d50d1",
+      "mark_review": {
+        "status": "checked_by_mark",
+        "reviewer": "Mark",
+        "date": "2026-10-10",
+        "scope": "Entire ApolloCM_pitch_damping_Figure14.csv, reviewed with the Figure 14 overlay",
+        "reviewed_sha256": "3d45c4aed4c4923bbd6282a106340a85b9e49fdda794f774a6b34c3e079d50d1",
+        "evidence": "User explicitly said all four digitized TN D-3890 damping datasets look good and may be listed as checked by Mark on 2026-10-10."
+      },
+      "notes": "See source-folder README and overlay. Not integrated into derived aeromodel."
+    },
+    {
+      "id": "apollo-cm-pitch-damping-d3890-fig15",
+      "source_id": "NASA_TN_D_3890_Apollo_Command_Module_Stability_Characteristics",
+      "path": "NASA_TN_D_3890_ApolloCM_PitchDamping/ApolloCM_pitch_damping_Figure15.csv",
+      "topics": [
+        "aerodynamics",
+        "capsule",
+        "pitch damping"
+      ],
+      "source_locator": "Figure 15, printed p.90 / PDF p.98; 37 digitized rows",
+      "extraction_method": "hand-selected plotted symbol centers",
+      "quality_status": "provisional_symbol_trace",
+      "sha256": "a20ba7f2b7ca924c8a8b61283c9d209ea03c2938ac17c74a581abe934c5a2f65",
+      "mark_review": {
+        "status": "checked_by_mark",
+        "reviewer": "Mark",
+        "date": "2026-10-10",
+        "scope": "Entire ApolloCM_pitch_damping_Figure15.csv, reviewed with the Figure 15 overlay",
+        "reviewed_sha256": "a20ba7f2b7ca924c8a8b61283c9d209ea03c2938ac17c74a581abe934c5a2f65",
+        "evidence": "User explicitly said all four digitized TN D-3890 damping datasets look good and may be listed as checked by Mark on 2026-10-10."
+      },
+      "notes": "See source-folder README and overlay. Not integrated into derived aeromodel."
+    },
+    {
+      "id": "apollo-cm-pitch-damping-d3890-fig16",
+      "source_id": "NASA_TN_D_3890_Apollo_Command_Module_Stability_Characteristics",
+      "path": "NASA_TN_D_3890_ApolloCM_PitchDamping/ApolloCM_pitch_damping_Figure16.csv",
+      "topics": [
+        "aerodynamics",
+        "capsule",
+        "pitch damping"
+      ],
+      "source_locator": "Figure 16, printed p.91 / PDF p.99; 74 digitized rows",
+      "extraction_method": "hand-sampled drawn curve at 10-degree increments",
+      "quality_status": "provisional_curve_trace",
+      "sha256": "9be1c5399e9c238e69ac460403ef080f7c3ccbcdf8eb7b55240e5052287f0e24",
+      "mark_review": {
+        "status": "checked_by_mark",
+        "reviewer": "Mark",
+        "date": "2026-10-10",
+        "scope": "Entire ApolloCM_pitch_damping_Figure16.csv, reviewed with the Figure 16 overlay",
+        "reviewed_sha256": "9be1c5399e9c238e69ac460403ef080f7c3ccbcdf8eb7b55240e5052287f0e24",
+        "evidence": "User explicitly said all four digitized TN D-3890 damping datasets look good and may be listed as checked by Mark on 2026-10-10."
+      },
+      "notes": "See source-folder README and overlay. Not integrated into derived aeromodel."
+    },
+    {
+      "id": "apollo-cm-pitch-damping-d3890-fig17",
+      "source_id": "NASA_TN_D_3890_Apollo_Command_Module_Stability_Characteristics",
+      "path": "NASA_TN_D_3890_ApolloCM_PitchDamping/ApolloCM_pitch_damping_Figure17.csv",
+      "topics": [
+        "aerodynamics",
+        "capsule",
+        "pitch damping"
+      ],
+      "source_locator": "Figure 17, printed p.92 / PDF p.100; 111 digitized rows",
+      "extraction_method": "hand-sampled drawn curve at 10-degree increments",
+      "quality_status": "provisional_curve_trace",
+      "sha256": "281aab64f07e2523717913c9135558aa8f444794677136a9742f3e432178cc4a",
+      "mark_review": {
+        "status": "checked_by_mark",
+        "reviewer": "Mark",
+        "date": "2026-10-10",
+        "scope": "Entire ApolloCM_pitch_damping_Figure17.csv, reviewed with the Figure 17 overlay",
+        "reviewed_sha256": "281aab64f07e2523717913c9135558aa8f444794677136a9742f3e432178cc4a",
+        "evidence": "User explicitly said all four digitized TN D-3890 damping datasets look good and may be listed as checked by Mark on 2026-10-10."
+      },
+      "notes": "See source-folder README and overlay. Not integrated into derived aeromodel."
+    },
+    {
+      "id": "as-504-figure4-4-mach-dynamic-pressure",
+      "source_id": "MPR_SAT_FE_69_4_AS-504_Apollo9_FlightEval",
+      "path": "MPR_SAT_FE_69_4_AS504_AscentFlightConditions/Figure4_4_mach_dynamic_pressure.csv",
+      "topics": [
+        "trajectory",
+        "ascent",
+        "atmosphere"
+      ],
+      "source_locator": "Figure 4-4, PDF p. 78; 191 sampled rows",
+      "extraction_method": "hand-corrected anchors plus pixel-guided dense tracing of solid actual/reconstructed curve; calibrated 2x PDF render",
+      "quality_status": "provisional_curve_trace",
+      "sha256": "6971604a472eef89b1660085667de649227f35ea778929ec27543a93fee86c1a",
+      "mark_review": {
+        "status": "checked_by_mark",
+        "reviewer": "Mark",
+        "date": "2026-10-10",
+        "scope": "Entire Figure4_4_mach_dynamic_pressure.csv, reviewed against its revised point-on-source overlay",
+        "reviewed_sha256": "6971604a472eef89b1660085667de649227f35ea778929ec27543a93fee86c1a",
+        "evidence": "User explicitly said on 2026-10-10 that they reviewed the Apollo 9 plot digitizations and they look good; requested they be marked reviewed."
+      },
+      "notes": "Dense plot-derived curve trace; source-folder README, overlay and trace script. Checked by Mark against revised overlays on 2026-10-10; exact event values still need source-table anchors for simulation use."
+    }
+  ]
+}
